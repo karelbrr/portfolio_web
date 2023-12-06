@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat.ttf");
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 125px;
+    background-color: white;
+    background-color: black;
+}
+
+.left-side-header {
+    width: 50%;
+}
+
+.right-side-header {
+    width: 50%;
+    
+}
+
+.right-side-header .header-nav-list {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+.header-nav-list a {
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+    font-family: montserrat;
+    transition: 500ms;
+    text-decoration-color: gray;
+}
+
+.header-nav-list {
+    padding-top: 48px;
+    padding-right: 48px;
+}
+
+.header-nav-list a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+header img {
+    width: 12%;
+    margin-left: 48px;
+    margin-top: 32px;
+    transition: 1000ms;
+}
+
+.bg-image-1 {
+    background-image: url("images/bg2.jpeg");
+    height: 700px;
+    background-size: cover;
+}
+
+#quote-text {
+    padding-top: 550px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 50px;
+    padding-left: 24px;
+}
+
+#carrier-h {
+    color: white;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 72px;
+    padding-top: 160px;
+    padding-bottom: 60px;
+    font-weight: 200;
+}
+
+#movies-h {
+    color: white;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 72px;
+    margin-top: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: 200;
+}
+
+.life-container {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.life-item {
+    width: 30%;
+    height: 600px;
+}
+
+.life-item h3 {
+    font-family: montserrat;
+    font-size: 35px;
+    margin: 12px;
+}
+
+.life-item-text {
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: montserrat;
+}
+
+.bg-image-2 {
+    background-image: url("images/bg5.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+
+}
+
+.movies-container {
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.movies-item {
+    height: 500px;
+    width: 20%;
+    color: white;
+}
+
+
+.movies-item h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: montserrat;
+    margin-top: 24px;
+}
+
+.poster-scarface, .poster-seaoflove, .poster-godfather {
+    width: 90%;
+    filter: saturate(0);
+    transition: 1s;
+    align-items: center;
+}
+
+.poster-scarface:hover, .poster-seaoflove:hover, .poster-godfather:hover {
+    filter: saturate();
+}
+
+.poster-container {
+    text-align: center;
+}
+
+.bg-image-3 {
+    background-image: url("images/bg-3.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(0);
+}
+
+.more-movies p {
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    font-family: montserrat;
+}
+
+.more-movies h3{
+    color: white;
+    font-size: 35px;
+    width: 500px;
+    font-family: montserrat;
+}
