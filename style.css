@@ -196,3 +196,9 @@ header img {
     width: 500px;
     font-family: montserrat;
 }
+
+.more-movies {
+   float: right;
+   margin-right: 248px;
+   margin-top: 128px;
+}
