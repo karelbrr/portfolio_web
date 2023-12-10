@@ -242,12 +242,38 @@ header img {
     height: 500px;
     display: flex;
     justify-content: space-around;
+    font-family: montserrat;
+    font-size: 18px;
 }
 
 .interest li {
     color: white;
+    margin-bottom: 12px;
 }
 
 .interest ul {
     width: 25%;
+}
+
+footer {
+    height: 100px;
+}
+
+.footer-nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 78px;
+}
+
+.footer-nav-list a {
+    font-family: montserrat;
+    opacity: 70%;
+    color: gray;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.footer-nav-list a:hover {  
+    opacity: 100%;
 }
