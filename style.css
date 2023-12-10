@@ -91,7 +91,7 @@ header img {
     font-weight: 200;
 }
 
-#movies-h {
+#movies-h, #achievements-h, #interest-h {
     color: white;
     text-align: center;
     font-family: montserrat;
@@ -101,6 +101,8 @@ header img {
     padding-bottom: 60px;
     font-weight: 200;
 }
+
+
 
 .life-container {
     color: white;
@@ -195,10 +197,57 @@ header img {
     font-size: 35px;
     width: 500px;
     font-family: montserrat;
+    width: 100%;
 }
 
 .more-movies {
    float: right;
    margin-right: 248px;
    margin-top: 128px;
+}
+
+.achievements {
+    height: 800px;
+    color: white;
+}
+
+.achievements h3 {
+    color: white;
+    margin-top: 48px;
+    font-family: montserrat;
+}
+
+.achievements-oscar li {
+    color: white;
+    font-family: montserrat;
+    margin-left: 20px;
+}
+
+.achievements-globus li {
+    color: white;
+    font-family: montserrat;
+}
+
+.achievements-oscar, .achievements-globus {
+    margin: auto;
+    width: 40%;
+}
+
+.bg-image-4 {
+    background-image: url("images/bg-7.png");
+    height: 700px;
+}
+
+.interest {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interest li {
+    color: white;
+}
+
+.interest ul {
+    width: 25%;
 }
