@@ -25,6 +25,15 @@ header {
 
 .left-side-header {
     width: 50%;
+    display: flex;
+}
+
+#slide-heading {
+    margin-top: 40px;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 30px;
+    display: none;
 }
 
 .right-side-header {
@@ -32,13 +41,13 @@ header {
     
 }
 
-.right-side-header .header-nav-list {
+.right-side-header #header-nav-list {
     display: flex;
     justify-content: right;
     list-style-type: none;
 }
 
-.header-nav-list a {
+#header-nav-list a {
     color: white;
     text-decoration: none;
     margin-left: 12px;
@@ -47,21 +56,20 @@ header {
     text-decoration-color: gray;
 }
 
-.header-nav-list {
+#header-nav-list {
     padding-top: 48px;
     padding-right: 48px;
 }
 
-.header-nav-list a:hover {
+#header-nav-list a:hover {
     opacity: 70%;
     text-decoration: underline;
     text-decoration-color: gray;
 }
 
-header img {
-    width: 12%;
-    margin-left: 48px;
-    margin-top: 32px;
+#signature-img {
+    width: 14%;
+    margin: 20px;
     transition: 1000ms;
 }
 
@@ -86,7 +94,7 @@ header img {
     text-align: center;
     font-family: montserrat;
     font-size: 72px;
-    padding-top: 160px;
+    padding-top: 170px;
     padding-bottom: 60px;
     font-weight: 200;
 }

@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $("#slide-heading").slideDown("slow");
+});
+
 
 (function () {
     let quotes = ["Money makes your life easier. <br>If you're lucky to have it, you're lucky.",
@@ -10,3 +14,4 @@
         $(this).html(quotes[(i = (i + 1) % quotes.length)]).fadeIn();
       }); }, 10000)
 })();
+
