@@ -1,6 +1,14 @@
 $(document).ready(function(){
-  $("#slide-heading").slideDown("slow");
+  $("#signature-img").fadeTo(300 , 1)
+  $("#slide-heading").fadeTo(1000 , 1)
+  $("#header-nav-list a").fadeTo(600 , 1)
 });
+
+
+$(document).ready(function(){
+  $("#quote-text").fadeTo(2000, 1)
+});
+
 
 
 (function () {

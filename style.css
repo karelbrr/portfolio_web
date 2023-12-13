@@ -54,6 +54,7 @@ header {
     font-family: montserrat;
     transition: 500ms;
     text-decoration-color: gray;
+    display: none;
 }
 
 #header-nav-list {
@@ -68,6 +69,7 @@ header {
 }
 
 #signature-img {
+    display: none;
     width: 14%;
     margin: 20px;
     transition: 1000ms;
@@ -80,6 +82,7 @@ header {
 }
 
 #quote-text {
+    display: none;
     padding-top: 550px;
     color: white;
     font-family: Montserrat;
@@ -264,14 +267,23 @@ header {
 }
 
 footer {
-    height: 100px;
+    height: 220px;
+}
+
+.footer-heading  {
+    font-family: montserrat;
+    color: gray;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 48px;
 }
 
 .footer-nav-list {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-top: 78px;
+    margin-top: 24px;
 }
 
 .footer-nav-list a {
@@ -284,4 +296,23 @@ footer {
 
 .footer-nav-list a:hover {  
     opacity: 100%;
+}
+
+.social-list {
+    margin-top: 24px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social-list li {
+    margin-right: 12px;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.social-list li:hover {
+    opacity: 100%;
+    cursor: pointer;
 }
